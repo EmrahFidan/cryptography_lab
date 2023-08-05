@@ -1,0 +1,17 @@
+#  SEZAR ALGORİTMASI
+
+Alfabeyi düşünelim: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z.
+
+Mesajımızdaki her harfi birkaç adım ileri kaydırarak şifreleyeceğiz. Örneğin, harfleri 3 adım ileri kaydırmayı seçelim.
+
+Şimdi, bir mesajımız olsun: "MERHABA".
+
+İlk harf "M", alfabede 3 adım ileri gideceğiz: M -> N -> O -> P. Yani "M" harfi şifrelenmiş haliyle "P" olacak.
+
+Aynı şekilde diğer harfleri de şifreleyelim: "E" harfi 3 adım ileri giderse "H" olur, "R" harfi 3 adım ileri giderse "U" olur, "H" harfi 3 adım ileri giderse "K" olur, ve "A" harfi 3 adım ileri giderse "D" olur.
+
+Sonuç olarak, "MERHABA" kelimesi "PHUKEDD" şeklinde şifrelenmiş olur.
+
+Şifrelenmiş mesajı alan kişi, şifreleme anahtarını bilmese bile, her harfi aynı miktarda geri kaydırarak (burada 3 adım geri) şifreyi çözebilir ve asıl mesajı elde edebilir.
+
+Sezar algoritması aslında çok kolay ve eğlenceli bir şifreleme yöntemidir. Tabii ki, gerçek hayatta önemli bilgileri şifrelemeden önce daha güçlü ve karmaşık şifreleme yöntemlerini kullanmak daha güvenli olacaktır. Ancak Sezar algoritması, temel şifreleme kavramını anlamak için güzel bir başlangıçtır. 
